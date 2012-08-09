@@ -16,7 +16,6 @@ def is_prime(n)
   true
 end
 
-#p 
 600851475143.factors().reverse.each do |i|
   if is_prime(i)
     p i 
